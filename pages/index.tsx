@@ -33,9 +33,9 @@ const Home: NextPage = () => {
         )}
         {activeImage > 7 && (
           <div className={styles.stampedImageContainer}>
-            <ImageFadeIn src="7.jpg" />
+            <img src="7.jpg" />
             <div className={styles.stampedImage}>
-              <Image width={180} height={180} src="/stamp.jpg" />
+              <img src="/stamp.jpg" />
             </div>
           </div>
         )}
